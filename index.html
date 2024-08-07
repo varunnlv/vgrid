@@ -116,6 +116,12 @@
             grid-area: item5;
         }
 
+            .items p {
+            word-wrap: break-word;      /* Ensure long words are wrapped */
+            overflow-wrap: break-word;  /* Fallback for older browsers */
+            white-space: normal;        /* Ensure text wraps normally */
+        }
+
         @media (min-width: 1279px) {}
 
         @media (max-width: 1279px) {}
